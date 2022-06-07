@@ -7,3 +7,17 @@
     margin: 0 auto 64px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:1140px) {
+    .lead__subtitle {
+        margin: 0 auto 56px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 0 auto 40px;
+    }
+}

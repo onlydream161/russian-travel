@@ -1,9 +1,28 @@
 .header {
+    box-sizing: border-box;
     max-width: 1184px;
     max-height: 52px;
-    margin: 28px auto 56px;
+    margin: 28px 48px 56px;
     display: flex;
     position: center;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width:1140px) {
+    .header {
+        margin: 28px 48px 48px;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .header {
+        margin: 28px 24px 48px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .header {
+        margin: 16px 16px 48px;
+    }
 }
