@@ -1,8 +1,8 @@
 .cover__item {
+    margin: 0 48px;
+    max-width: 1184px;
     min-height: 740px;
     text-decoration: none;
-    box-sizing: border-box;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,6 +33,7 @@
 
 @media screen and (max-width:1140px) {
     .cover__item {
+        margin: 0;
         min-height: 640px;
     }
 }

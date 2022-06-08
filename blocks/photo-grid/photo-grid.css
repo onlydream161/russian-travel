@@ -1,8 +1,5 @@
 .photo-grid {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 0 48px 0;
-    margin: 0 auto 92px;
+    max-width: 1184px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -23,10 +20,8 @@
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        padding: 0 24px 0;
         grid-row-gap: 16px;
         grid-column-gap: 16px;
-        margin: 0 auto 88px;
     }
 }
 
@@ -34,8 +29,6 @@
     .photo-grid {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(12, 1fr);
-        padding: 0 16px 0;
         grid-row-gap: 12px;
-        margin: 0 auto 64px;
     }
 }

@@ -1,5 +1,4 @@
 .lead__image {
-    box-sizing: border-box;
     max-width: 984px;
     max-height: 615px;
     object-fit: cover;
